@@ -84,6 +84,9 @@
             default() {
                 return {}
             }
+        },
+        dotsContainer: {
+            default: false
         }
       },
 
@@ -108,6 +111,7 @@
             autoplayTimeout     : this.autoplayTimeout,
             autoplayHoverPause     : this.autoplayHoverPause,
             responsive     : this.responsive
+            dotsContainer     : this.dotsContainer
         });
 
         $('#' + this.prevHandler).click(function() {
